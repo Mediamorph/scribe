@@ -11,8 +11,7 @@ define([
   './node',
   'immutable',
   './config',
-  './events',
-  './polyfill'
+  './events'
 ], function (
   plugins,
   commands,
