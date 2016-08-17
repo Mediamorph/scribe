@@ -6,6 +6,9 @@
   "dependencies": {
     "immutable": "~3.8.1"
   },
+  "browserify": {
+    "transform": "deamdify"
+  },
   "devDependencies": {
     "chai": "~1.9.1",
     "grunt": "^1.0",
