@@ -3,6 +3,11 @@
 A rich text editor framework for the web platform, with patches for
 browser inconsistencies and sensible defaults.
 
+**This is a fork that intends to solve just specific issues of integrating with MM:**
+
+* Added deamdify to be able to use in commonJS build without global transformation that breaks other libraries.
+* Merged PR to solve unsatisfied AMD-lodash dependency (can't be solved by transformation too).
+
 ## Status
 
  [![Build Status](https://travis-ci.org/guardian/scribe.svg?branch=master)](https://travis-ci.org/guardian/scribe) <a href="https://david-dm.org/guardian/scribe"><img src="https://david-dm.org/guardian/scribe.svg"></a> [![Join the chat at https://gitter.im/guardian/scribe](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/guardian/scribe?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
