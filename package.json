@@ -5,7 +5,7 @@
   "main": "src/scribe.js",
   "dependencies": {
     "immutable": "~3.8.1",
-	"lodash-amd": "3.5.0"
+	"lodash-amd": "~2.4.1"
   },
   "browserify": {
     "transform": "deamdify"
